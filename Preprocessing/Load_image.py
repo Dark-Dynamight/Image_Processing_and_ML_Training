@@ -4,7 +4,7 @@
 # import cv2
 
 # # Load DICOM image
-# ds = pydicom.dcmread("C:/Users/payya/OneDrive/Documents/Major Project/Images/1-1.dcm")
+# ds = pydicom.dcmread("C:/Users/payya/OneDrive/Documents/Major Project/Image_Processing_and_ML_Training/Images/1-1.dcm")
 # image = ds.pixel_array
 
 # plt.imshow(image, cmap='gray')

@@ -20,7 +20,7 @@
 import pydicom
 import cv2
 
-ds = pydicom.dcmread("C:/Users/payya/OneDrive/Documents/Major Project/Images/1-1.dcm")
+ds = pydicom.dcmread("C:/Users/payya/OneDrive/Documents/Major Project/Image_Processing_and_ML_Training/Images/1-1.dcm")
 image = ds.pixel_array
 
 # Normalize if required before resize
